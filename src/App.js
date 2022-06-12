@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import './App.css'
-// import Face from './components/Face'
+import Face from './components/Face'
 // import Sphere from './components/AnimatedSphere'
 import Box from './components/Box'
 import styled from "styled-components";
@@ -29,7 +29,7 @@ export default function App() {
         <Suspense fallback={'Loading...'}>
           <Sphere />
         </Suspense>
-      </Canvas> 
+      </Canvas> */}
 
       <Canvas className="canvas">
         <OrbitControls autoRotate={false} autoRotateSpeed={0} enableZoom={false} />
@@ -38,7 +38,7 @@ export default function App() {
         <Suspense fallback={null}>
           <Face />
         </Suspense>
-      </Canvas>  */}
+      </Canvas>  
     
     </Wrapper>
   );
