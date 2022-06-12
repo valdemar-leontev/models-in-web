@@ -10,9 +10,6 @@ import { OrbitControls } from '@react-three/drei';
 export default function App() {
   return (
     <Wrapper className="App">
-
-<h1>WEBVIEW</h1>
-
        <Canvas className="canvas">
         <OrbitControls autoRotate={true} autoRotateSpeed={1} enableZoom={false} />
         <ambientLight intensity={0.5} />
