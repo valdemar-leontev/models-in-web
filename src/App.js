@@ -17,16 +17,16 @@ export default function App() {
         <OrbitControls autoRotate={true} autoRotateSpeed={1} enableZoom={false} />
         <ambientLight intensity={0.5} />
         <directionalLight position={[-2, 5, 2]} intensity={1} />
-        <Suspense fallback={null}>
+        <Suspense fallback={() => <h1>Hello</h1>}>
           <Box />
         </Suspense>
       </Canvas>
 
-      <Canvas className="canvas">
+      {/* <Canvas className="canvas">
         <OrbitControls autoRotate={true} autoRotateSpeed={1} enableZoom={false} />
         <ambientLight intensity={0.5} />
         <directionalLight position={[-2, 5, 2]} intensity={1} />
-        <Suspense fallback={null}>
+        <Suspense fallback={'Loading...'}>
           <Sphere />
         </Suspense>
       </Canvas> 
@@ -38,7 +38,7 @@ export default function App() {
         <Suspense fallback={null}>
           <Face />
         </Suspense>
-      </Canvas> 
+      </Canvas>  */}
     
     </Wrapper>
   );
