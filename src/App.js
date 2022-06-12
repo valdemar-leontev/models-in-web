@@ -1,8 +1,8 @@
 import React, { Suspense } from 'react';
 import './App.css'
-import Face from './components/Face'
+// import Face from './components/Face'
+// import Sphere from './components/AnimatedSphere'
 import Box from './components/Box'
-import Sphere from './components/AnimatedSphere'
 import styled from "styled-components";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from '@react-three/drei';
