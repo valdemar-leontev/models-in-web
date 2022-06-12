@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import './App.css'
-import Face from './components/Face'
+// import Face from './components/Face'
 // import Sphere from './components/AnimatedSphere'
 import Box from './components/Box'
 import styled from "styled-components";
@@ -31,14 +31,14 @@ export default function App() {
         </Suspense>
       </Canvas> */}
 
-      <Canvas className="canvas">
+      {/* <Canvas className="canvas">
         <OrbitControls autoRotate={false} autoRotateSpeed={0} enableZoom={false} />
         <ambientLight intensity={0.5} />
         <directionalLight position={[-2, 5, 2]} intensity={1} />
         <Suspense fallback={null}>
           <Face />
         </Suspense>
-      </Canvas>  
+      </Canvas>   */}
     
     </Wrapper>
   );
